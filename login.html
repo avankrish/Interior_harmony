@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+      <title>Interior Harmony-Sign In</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	  <link rel="stylesheet" href="stylesheet.css">
+    <link rel='icon' href='interiordesignlogo.png' type='image/x-icon'>
+</head>
+      <body id="pic2">	  
+            
+		 <header>
+		 
+		 <div class="div1">
+		   <center><h1 id='title'>Interior Harmony</h1></center>
+           </div>
+		 <div class="nav">
+		 <label for="toggle" id="toggle1">&#9776;</label>
+		 <input type="checkbox" id="toggle">
+		 <div class="menu">
+		   
+		   <a class="atitle" href="website.html" class="lnk1">HOME</a>
+		 
+		    
+		   <a class="atitle" href="about.html" class="lnk1">ABOUT</a>
+		    
+		   <div class ="dropdown">
+				<a id="pdrop" class="atitle">RESIDENTIAL</a>
+				<div class="dropdown1">
+					<a class="atag"  href="livingroom.html">LIVING ROOM</a>
+					<a class="atag" href="bedroom.html">BED ROOM</a>
+					<a class="atag" href="kitchen.html">KITCHEN</a>
+					<a class="atag" href="diningroom.html">DINING ROOM</a>
+                    <a class="atag" href="bathroom.html">BATH ROOM</a>
+				</div>
+		   </div>
+		    
+		   <a class="atitle" href="contact.html" class="lnk1"><span id="contact">CONTACT US</span></a>
+		   
+		  
+			 <a class="atitle" href="login.html" class="lnk2">LOGIN  | SIGNUP</a><span id="signin"></span>
+			 
+			 </div>
+			 </div>
+           
+		 </header>
+          <main>
+               <form>
+                   <center>
+                       <div  id="formtable">
+               <table >
+                <tr>
+                    <td class="sam1" class="formtd"><label for='uname'>Username</label></td>
+                    <td class="sam2" class="formtd" ><input type='text' id='uname' pattern="^[A-Za-z ]{4,20}$" onblur="return(valUname())" required>
+                        </td>
+                    <td><p class="para2"></p></td>
+                </tr>
+                   <tr>
+                    <td  class="sam1"  class="formtd" ><label for='pwd'>Password</label></td>
+                    <td class="sam2" class="formtd"><input type='password' id='pwd' pattern="^[A-Za-z ]{4,20}$" onblur="return(valPwd())" required></td>
+                     <td><p class="para2"></p></td>
+                </tr>
+                   <tr >
+                    <td colspan='2'>
+                        <input type="submit" id="sub" value="Sign In" onclick="fnvalidate()">
+                    </td>
+                
+                </tr>
+                   <tr >
+                    <td colspan='2' align='center'>
+                        <p>Don't have an account? <a href="signup.html" id="asignup">Sign Up</a></p>
+                    </td>
+                
+                </tr>
+                    
+              </table>
+                       </div>
+                       </center>
+              </form>
+          
+          </main>
+          
+          <script type="text/javascript">
+              
+              x=0;
+              function valUname()
+            {
+                var username=document.getElementById("uname");
+           
+               if(username.validity.patternMismatch)
+                    { 
+                          document.getElementsByClassName("para2")[0].innerHTML="*This field requires minimum 4 characters";
+                        username.focus();
+                        return false;
+                    }
+                    else
+                        {
+                            x++;
+                            document.getElementsByClassName("para2")[0].innerHTML="";
+                            return true;
+                        }
+                 
+                 
+            }
+               function valPwd()
+            {
+                var pass=document.getElementById("pwd");
+           
+               if(pass.validity.patternMismatch)
+                    { 
+                         document.getElementsByClassName("para2")[1].innerHTML="*This field requires minimum 4 characters";
+                        pass.focus();
+                        return false;
+                    }
+                    else
+                        {
+                            x++;
+                            document.getElementsByClassName("para2")[1].innerHTML="";
+                            return true;
+                        }
+                 
+                 
+            }
+              function fnvalidate()
+                {
+                    if(x==2)
+                        {
+                            alert("You have successfully Signed-In!!");
+                        }
+                }
+
+          
+          
+          </script>
+               
+    </body>
+</html>

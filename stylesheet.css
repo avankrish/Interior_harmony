@@ -1,0 +1,629 @@
+#down
+{
+    margin-top: 30px;
+}
+.lnk1
+		{
+			padding-right: 30px;
+			text-align:center;
+		}
+#signin
+		{
+			margin-right:430px;
+		}
+
+#pic1
+{
+    background-image: url("https://www.recommend.my/blog/wp-content/uploads/2016/09/shutterstock_304351451-1000x563.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+	background-size:cover;
+}
+
+.atitle
+{
+		text-decoration:none;
+		color:black;
+		margin:5px;
+		padding-top:6px;
+}
+
+.atitle:hover
+{
+		background-color:floralwhite;
+		padding: 10px;
+        border-radius: 5px;
+    padding-top:6px;
+}
+#title
+{
+	font-family:Edwardian Script ITC;
+	font-size:60px;
+}
+#home
+{
+    padding-left: 0.5px;
+}
+#quote{
+	position:absolute;
+	top:30%;
+	left:25%;
+	color:black;
+	font-size:60px;
+	font-family:Castellar;
+    
+}
+.abtable
+{
+    padding: 30px;
+    padding-top: 40px;
+   font-family:Monotype Corsiva;
+}
+#toggle1
+		{
+			display:none;
+			font-size:25px;
+		}
+#toggle
+		{
+			display:none;
+		}
+
+#pic2
+{
+   /* background-color: MistyRose;*/
+    background: url("background4.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+   
+}
+.nav
+		{
+			text-align:right;
+		}
+
+.abpara
+{
+    font-size: 25px;
+}
+input[type="submit"]
+ {
+                margin:10px;
+                font-size: 15px;
+                background-color:black;
+                color:white;
+                width:88%;
+                padding:10px;
+                font-family: Comic Sans MS;
+                font-size: 20px;
+                border-color: white;
+ }
+
+.para2
+{
+                color: darkred;
+				position:relative;
+				top:27px;
+				left:15px;
+}
+.formmain
+{
+    background-color: mistyrose;
+}
+input[type="text"]
+{
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+	border-color:white;
+    font-family: Californian FB;
+    font-size: 20px;
+}
+input[type="password"]
+{
+    padding: 10px;
+     width: 80%;
+    background-color: white;
+    border-color:white;
+      font-size: 20px;
+}
+input[type="email"]
+{
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+	border-color:white;
+    font-family: Californian FB;
+    font-size: 20px;
+}
+#formtable
+{
+    position:absolute;
+	top:275px;
+	left:500px;
+	
+}
+.formtd
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:10px;
+    
+}
+.sam1
+{
+	padding-top:20px;
+	padding-bottom:20px;
+    padding-left:20px;
+}
+.sam2
+{
+	padding-top:20px;
+	padding-bottom:20px;
+    padding-left:20px;
+}
+label
+{
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+#loc{
+	position:absolute;
+	top:300px;
+	left:900px;
+}
+#conhead
+{
+    margin-top:40px;
+}
+.copyright{
+	color:grey;
+}
+.contact{
+	text-align:center;
+}
+#asignup
+{
+    color:grey;
+    text-decoration: underline;
+}
+#asignup:hover
+{
+    color:blue;
+    background-color: mistyrose;
+}
+#network
+{
+    vertical-align: top;
+}
+.dropdown1
+{
+     margin-top: 10px;
+    
+}
+.dropdown1
+{
+	display:none;
+	background:ghostwhite;
+	position: absolute;
+    left:16px;
+    /*top:40px;*/
+	  min-width: 130px;     /*120*/
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+    border-radius: 5px;
+    
+    /*padding-right:30px;
+     padding-left:30px;*/
+}
+.dropdown
+{
+	position: relative;
+ 	 display: inline-block;
+}
+
+.atag
+{
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	color:black;
+    text-align: center;
+}
+.atag:hover
+{
+    background-color: LightGray;
+    
+}
+.dropdown:hover .dropdown1
+{
+            display: block;
+    vertical-align: middle;
+}
+#pdrop:hover
+{
+	background-color:floralwhite;
+	padding: 10px;
+    margin-left: 20px;
+     margin-right: 20px;
+        border-radius: 5px;
+}
+#pdrop
+{
+    margin-left: 20px;
+     margin-right: 20px;
+    /*padding-left: 10px;*/
+}
+.divtb
+{
+    background-color:black;
+            color:white;
+            padding:20px;
+}
+#contact
+{
+    margin-right:10px;
+}
+
+ .col-1{width:8.33%;}
+             .col-2{width:16.66%;}
+            .col-3{width:24.5%;}
+             .col-4{width:33.33%;}
+             .col-5{width:41.66%;}
+             .col-6{width:50%;}
+             .col-7{width:58.33%;}
+             .col-8{width:66.66%;}
+             .col-9{width:75%;}
+             .col-10{width:83.33%;}
+             .col-11{width:91.66%;}
+             .col-12{width:100%;}
+.rimg
+{
+	display:inline;
+}
+.img {
+  opacity: 1;
+  display: inline;
+ width:24.5%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    padding-top: 30px;
+    padding-left: 3px;
+}
+
+.rimg:hover .img
+{
+  opacity: 0.7;
+}
+
+.images
+{
+    position: absolute;
+    left:20px;
+    top:100px;
+}
+.des
+{
+	position:absolute;
+	top:200px;
+	left:66.66%;
+	padding-left:30px;
+	padding-right:30px;
+	line-height:50px;
+	font-size:15px;
+	font-family:comic sans ms;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+    @media only screen and (max-width: 600px)
+           {
+#down
+{
+    margin-top: 20px;
+}
+.lnk1
+{
+    padding-right: 20px;
+}
+#pic1
+{
+    /*background-image: url("https://www.recommend.my/blog/wp-content/uploads/2016/09/shutterstock_304351451-1000x563.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+	background-size:cover;*/
+    background: url("https://www.recommend.my/blog/wp-content/uploads/2016/09/shutterstock_304351451-1000x563.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+.atitle
+{
+		text-decoration:none;
+		color:black;
+		/*padding:6px;*/
+    margin:6px;
+
+}
+.atitle:hover
+{
+		background-color:mistyrose;
+		padding: 10px;
+        border-radius: 5px;
+}
+#title
+{
+	font-family:Edwardian Script ITC;
+	font-size:60px;
+}
+#home
+{
+    padding-left: 0.5px;
+}
+#quote
+    {
+	/*position:absolute;
+	top:40%;
+	left:28%;
+	color:black;
+	font-size:40px;
+	font-family:Castellar;*/
+        display:none;
+}
+.abtable
+{
+    padding: 30px;
+    padding-top: 40px;
+   font-family:Monotype Corsiva;
+}
+#pic2
+{
+    background: url("background4.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+.abpara
+{
+    font-size: 25px;
+}
+input[type="submit"]
+ {
+                margin:10px;
+                font-size: 15px;
+                background-color:black;
+                color:white;
+                width:88%;
+                padding:10px;
+                font-family: Comic Sans MS;
+                font-size: 20px;
+                border-color: white;
+ }
+
+.para2
+{
+                color: darkred;
+				position:relative;
+				top:27px;
+				left:15px;
+}
+.formmain
+{
+    background-color: mistyrose;
+}
+input[type="text"]
+{
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+	border-color:white;
+    font-family: Californian FB;
+    font-size: 20px;
+}
+input[type="password"]
+{
+    padding: 10px;
+     width: 80%;
+    background-color: white;
+    border-color:white;
+      font-size: 20px;
+}
+input[type="email"]
+{
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+	border-color:white;
+    font-family: Californian FB;
+    font-size: 20px;
+}
+#formtable
+{
+    position:absolute;
+	top:275px;
+	left:0px;
+    width:100%;
+	
+}
+.formtd
+{
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:10px;
+    
+}
+.sam1
+{
+	padding-top:20px;
+	padding-bottom:20px;
+    padding-left:20px;
+}
+.sam2
+{
+	padding-top:20px;
+	padding-bottom:20px;
+    padding-left:20px;
+}
+label
+{
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+#loc{
+	
+    display:none;
+}
+#network
+{
+    vertical-align: top;
+}
+#conhead
+{
+    margin-top:40px;
+}
+.copyright{
+	color:grey;
+}
+.contact{
+	text-align:center;
+}
+#asignup
+{
+    color:grey;
+    text-decoration: underline;
+}
+#asignup:hover
+{
+    color:blue;
+    background-color: mistyrose;
+}
+
+.dropdown1
+{
+	display:none;
+	background:lavender;
+	position: relative;
+	min-width: 465px;
+	box-shadow: none;
+	z-index: 1;			
+}
+
+.dropdown
+{
+	position: relative;
+ 	 display: inline-block;
+}
+
+.atag
+{
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	color:black;
+}
+               .atag:hover
+							{
+								background-color:Plum;
+							}
+#toggle1
+			{
+				display:block;
+				cursor:pointer;
+			}
+
+.dropdown:hover .dropdown1
+{
+            display: block;
+}
+#pdrop:hover
+{
+	background-color:mistyrose;
+	padding: 10px;
+        border-radius: 5px;
+}
+#pdrop
+{
+    padding-left: 10px;
+}
+.divtb
+{
+    background-color:black;
+            color:white;
+            padding:20px;
+}
+#contact
+{
+    padding-left:10px;
+}
+
+ .col-1{width:8.33%;}
+             .col-2{width:16.66%;}
+            .col-3{width:24.5%;}
+             .col-4{width:33.33%;}
+             .col-5{width:41.66%;}
+             .col-6{width:50%;}
+             .col-7{width:58.33%;}
+             .col-8{width:66.66%;}
+             .col-9{width:75%;}
+             .col-10{width:83.33%;}
+             .col-11{width:91.66%;}
+             .col-12{width:100%;}
+.rimg
+{
+	display:inline-block;
+    width:100%;
+}
+.img {
+  opacity: 1;
+  display: inline-block;
+ width:100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    padding-top: 30px;
+    padding-left: 3px;
+}
+
+.rimg:hover .img
+{
+  opacity: 0.7;
+}
+
+.images
+{
+    /*position: absolute;
+    left:20px;
+    top:100px;*/
+    width:100%;
+}
+               .col-8
+               {
+                    width:100%;
+                   height:50%;
+               }
+.des
+{
+	position:relative;
+	top:20px;
+	left:0px;
+	padding-left:10px;
+	padding-right:10px;
+	line-height:20px;
+	font-size:10px;
+	font-family:comic sans ms;
+}
+               .menu
+			{
+				text-align:center;
+				width:100%;
+				display:none;
+				background-color:LavenderBlush;
+				position:absolute;
+				z-index:1;
+			}
+			.menu a
+			{
+				display:block;
+                
+			}
+			#toggle:checked + .menu
+			{	
+				display:block;
+			}
+
+         
+        }
+
